@@ -641,6 +641,13 @@ video::CWDaAJ0dNk8[youtube]
 
 === Assemble the Legs
 
+
+[cols="a,a"]
+|====
+| image::parts_and_tools_for_leg_assembly.jpg[] | image::legs_ready_for_next_step.jpg[]
+|====
+
+
 Get all the tools and parts.
 
 [cols="a,a"]
@@ -688,6 +695,13 @@ image::legs_ready_for_next_step.jpg[]
 
 === Assemble the Lower Torso
 
+
+[cols="a,a"]
+|====
+| image::assemble_body.jpg[] | image::torso_and_legs_assembled.jpg[]
+|====
+
+
 Get the parts and tools needed to assemble the lower torso. Follow the same procedure for the torso motors as with the leg motors using washers and spring washers accordingly.
 
 [cols="a,a"]
@@ -727,6 +741,12 @@ image::torso_and_legs_assembled.jpg[]
 
 ==== Cardan Ankle Joint
 
+[cols="a,a"]
+|====
+| image::assemble_the_ankle_cardan_joint.jpg[] | image::mount_pulleys_to_gimbal.jpg[]
+|====
+
+
 Get the parts and tools needed for cardan joint assembly.
 
 * pulley 33T with 4x M4 screw holes
@@ -748,6 +768,11 @@ image::mount_pulleys_to_gimbal.jpg[]
 
 ==== Prepare Foot
 
+[cols="a,a"]
+|====
+| image::foot_assemble_bearings.jpg[] | image::prepared_foot.jpg[]
+|====
+
 Mount the remaining bearing to the feet.
 
 image::foot_assemble_bearings.jpg[]
@@ -758,6 +783,11 @@ image::feet_insert_motors.jpg[]
 image::prepared_foot.jpg[]
 
 ==== Foot assembly
+
+[cols="a,a"]
+|====
+| image::assemble_foot_prepare_tools.jpg[] | image::foot_result.jpg[]
+|====
 
 Get all the tools and parts.
 
@@ -784,6 +814,10 @@ image::foot_result.jpg[]
 NOTE: The feet are perfectly idententical from the mechanical point of view. However, the IDs you assigned during motor software settings will define which one is the left and which one is the right foot.
 
 === Mouting feet
+[cols="a,a"]
+|====
+| image::foot_mounting.jpg[] | image::both_feet_mounted.jpg[]
+|====
 
 Get the two feet and the needed tools and prepare some space on your workbench to put the full robot there.
 
@@ -796,6 +830,11 @@ image::first_foot_mounted.jpg[]
 image::both_feet_mounted.jpg[]
 
 === Cable confection
+[cols="a,a"]
+|====
+| image::pin_assignment.jpg[] | image::check_correct_pin_assignment.jpg[]
+|====
+
 We recommend using officially supported MOLEX SPOX wire crimp tool, but we also know that theses devices may be quite expensive. However, if you already own a crimp tool it is worth trying if it can be used here, please verify carefully for proper connections and not cutting the insulation of the cable. The method described here is for users without access to appropriate crimp tools. Despite the fact that solder crimping is generally a questionable method for industrial standards, this is still a valid workaround in home manufacturing.
 
 TIP: Also consider to buy third party cables (e.g. from Robotis) or feel free to change the type of connector.
@@ -849,12 +888,21 @@ NOTE: Check for correct pin assignment, if not sure, use a multimeter.
 image::check_correct_pin_assignment.jpg[]
 
 ==== Termination resistors
+[cols="a,a"]
+|====
+| image::termination_resistors.jpg[] | image::termination_resistors.jpg[]
+|====
 
 Insert termination resistors (220 Ohms) into sockets using two terminals and solder carefully without buring the plastic socket.
 
 image::termination_resistors.jpg[]
 
 === Cabling
+[cols="a,a"]
+|====
+| image::cable_result.jpg[] | image::cables_top_back.jpg[]
+|====
+
 Get all the cables, some 2mm width cable ties and a side-cutting pliers for processing the wiring of the robot's motors.
 
 image::cable_result.jpg[]
@@ -878,8 +926,11 @@ As the last step, insert the termination resistors at each end of the line.
 === Tooth Belt Mounting and Tensioning
 
 Get the tooth belts. Take a breath and watch the video for mounting advice. Tightening belts will take a little bit of trial and error and gets more fluently with experience.
+[cols="a,a"]
+|====
+| image::belt_flower.jpg[] | image::belt_flower.jpg[]
+|====
 
-image::belt_flower.jpg[]
 
 video: https://www.youtube.com/watch?v=zkVwW5wzHFk[gretchen_assembly_tooth_belts_mounting]
 
