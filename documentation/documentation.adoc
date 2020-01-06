@@ -117,7 +117,12 @@ When using professional 3D-printing service, consider SLS (Selective Laser Sinte
 
 The wooden parts are approx. 5mm thick. Each Gretchen body part (lower torso, thigh or shank) is composed of two 5mm wooden plates glued together to reach the 10mm needed. Hence, in your assembly kit you should have 4x shank, 4x thigh, 2x torso plates.
 
-image::lasercut_parts.jpg[]
+[cols="a,a"]
+|====
+| image::lasercut_parts.jpg[] |
+|====
+
+
 
 === Prepare workbench.
 Make sure you have all the tools needed for glueing:
@@ -128,15 +133,22 @@ Make sure you have all the tools needed for glueing:
 * cutter knife
 * express wood glue
 
-image::prepare_workbench_and_tools.jpg[]
+[cols="a,a"]
+|====
+| image::prepare_workbench_and_tools.jpg[] |
+|====
+
 
 === Prepare the wood parts for glueing.
 Gently remove the remaining loose parts and price stickers, if any are present. Depending on the laser cut depth, it may appear that remaining parts (clippings) must be removed carefully with a cutter knife or sandpaper.
 
 Approximated time needed: 5 - 10 minutes
 
-image::remove_loose_parts.jpg[]
-image::remove_stickers.jpg[]
+[cols="a,a"]
+|====
+| image::remove_loose_parts.jpg[] | image::remove_stickers.jpg[]
+|====
+
 
 === Glue the parts together.
 Glue the parts together preferably using express wood glue. Apply glue uniformly following the recommendations of the specific glue user manual.
