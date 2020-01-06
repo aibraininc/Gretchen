@@ -144,29 +144,34 @@ Gently remove the remaining loose parts and price stickers, if any are present. 
 
 Approximated time needed: 5 - 10 minutes
 
-image::remove_loose_parts.jpg[]
-image::remove_stickers.jpg[]
+[cols="a,a"]
+|====
+| image::remove_loose_parts.jpg[] | image::remove_stickers.jpg[]
+|====
 
 === Glue the parts together.
 Glue the parts together preferably using express wood glue. Apply glue uniformly following the recommendations of the specific glue user manual.
 
-image::apply_glue_uniformly.jpg[]
-image::ready_for_glueing.jpg[]
+[cols="a,a"]
+|====
+| image::apply_glue_uniformly.jpg[] | image::ready_for_glueing.jpg[]
+|====
+
 
 Use many small clamps to apply appropriate pressure distributed on the full surface. Use some of M4 screws to hold the parts in place and assure that the parts are nicely aligned before the glue gets dry.
 
-image::clamping_parts.jpg[]
-image::align_and_fix_with_screw.jpg[]
+image::clamping_parts.jpg[320,240]
+image::align_and_fix_with_screw.jpg[320,240]
 
 Let the assembly dry for some time with the clamps attached. Follow specific instructions depending on the glue you are using. Remove remaining glue _after_ drying. Since otherwise smeared adhesive on the wood parts can not be painted well.
 
-image::excessive_glue.jpg[]
+image::excessive_glue.jpg[320,240]
 
 Glueing takes approximately *10 - 15* minutes per part. But drying will probably take *1 - 2* hours depending on the glue you are using. Repeat the process for all wooden parts, i.e. one lower torso, two thighs, two shanks.
 
 The result should look like this:
 
-image::glue_result.jpg[]
+image::glue_result.jpg[320,240]
 
 == Coloring
 
@@ -400,7 +405,12 @@ image::tape_motorbox.jpg[]
 
 Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
 
-image::unscrew_motor_cover.jpg[]
+
+
+[cols="a,a"]
+|====
+| image::unscrew_motor_cover.jpg[] | image::motorboard_removal_complete.jpg[]
+|====
 
 Stabilize the motor using a clamp or similar.
 Use a desolder pump to remove solder from the motor pins.
@@ -434,38 +444,57 @@ video::D0k9pQJAyEo[youtube]
 
 Get the 10 sensorimotor board and the through hole parts which need to be soldered.
 
-image::get_sensorimotors.jpg[]
-image::sensorimotor_through_hole_parts.jpg[]
+
+[cols="a,a"]
+|====
+| image::get_sensorimotors.jpg[] | image::sensorimotor_ready_1.jpg[]
+|====
+
+
+image::sensorimotor_through_hole_parts.jpg[320,240]
 
 Get all the needed and recommended tools. Use a fine solder tip and thin solder for the best quality. Set solder temperature a little above recommended for compensating the heat sink due to power pads.
 
-image::sensorimotor_tools_needed.jpg[]
-image::sensorimotor_recommended_solder_tools.jpg[]
-image::sensorimotor_recommended_fine_pitch_solder_tip.jpg[]
+[cols="a,a,a"]
+|====
+| image::sensorimotor_tools_needed.jpg[] | image::sensorimotor_recommended_solder_tools.jpg[] | image::sensorimotor_recommended_fine_pitch_solder_tip.jpg[]
+|====
+
 
 Insert the Motorcord (RS485, 4-pin, white, rectangluar) sockets and the I2C connector (black) from top side and solder from bottom side. Check for clearly separated pins.
 
-image::sensorimotor_insert_sockets.jpg[]
-image::sensorimotor_check_solder_pins.jpg[]
+[cols="a,a"]
+|====
+| image::sensorimotor_insert_sockets.jpg[] | image::sensorimotor_check_solder_pins.jpg[]
+|====
+
 
 Insert and solder the ISP 6-pin header next. You can use the capacitor to balance the board.
 
-image::sensorimotor_solder_ISP_header.jpg[]
-image::sensorimotor_check_ISP_pins.jpg[]
+
+[cols="a,a"]
+|====
+| image::sensorimotor_solder_ISP_header.jpg[] | image::sensorimotor_check_ISP_pins.jpg[]
+|====
+
 
 Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to the bottom of the board, the thermistor body should be placed left below the H-bridge with the flat side close to the surface.
 
-image::sensorimotor_bend_thermistor.jpg[]
-image::sensorimotor_solder_thermistor.jpg[]
+[cols="a,a"]
+|====
+| image::sensorimotor_bend_thermistor.jpg[] | image::sensorimotor_solder_thermistor.jpg[]
+|====
 
 Insert the electrolytic capacitor from bottom side, check for correct polarity and solder. The negative (GND) pin will be sinking a lot of heat because it is directly connected to a large ground plane, be prepared for this taking some more seconds for the solder/pad to reach the melting temperature. Cut/remove the remaining material close to the board
 
-image::sensorimotor_insert_polarized_capacitor.jpg[]
-image::sensorimotor_remove_remaining_pin.jpg[]
+[cols="a,a"]
+|====
+| image::sensorimotor_insert_polarized_capacitor.jpg[] | image::sensorimotor_remove_remaining_pin.jpg[]
+|====
 
 Repeat the process for all sensorimotor boards.
 
-image::sensorimotor_ready_1.jpg[]
+image::sensorimotor_ready_1.jpg[320,240]
 
 
 
@@ -481,56 +510,65 @@ video::vMh9dKeaUrc[youtube]
 
 Get all the tools and prepare workbench for installation.
 
-image::tools_for_installing_sensorimotor.jpg[]
+[cols="a,a"]
+|====
+| image::tools_for_installing_sensorimotor.jpg[] | image::sensorimotors_finished.jpg[]
+|====
 
 Check if cover fits to the servo box, remove any remaining support material or grain. Check if Sensorimotor board fits into cover frame.
 
-image::check_cover_fits_on_motorbox.jpg[]
-image::check_sensorimotor_fits_into_cover.jpg[]
+[cols="a,a"]
+|====
+| image::check_cover_fits_on_motorbox.jpg[] | image::check_sensorimotor_fits_into_cover.jpg[]
+|====
+
 
 Strip the wires of the potentiometer, twist/focus the wires' ends with your finger tips and pre-solder the wires to best fit into solder holes.
 
-image::strip_wires_of_potentiometer.jpg[]
-image::potentiometer_wires_pre-soldered.jpg[]
+[cols="a,a"]
+|====
+| image::strip_wires_of_potentiometer.jpg[] | image::potentiometer_wires_pre-soldered.jpg[]
+|====
 
 Solder potentiometer pins in the shown order! Be careful, the cables' isolation may melt (and then retract) quickly. Cut the cables' ends close above the board.
 
-image::solder_potentiometer_pins.jpg[]
+image::solder_potentiometer_pins.jpg[320,240]
 
 Cut, strip and pre-solder the motor wires, approximately 5cm each.
 
-image::motor_wires_5cm.jpg[]
+image::motor_wires_5cm.jpg[320,240]
 
 Solder the motor wires and the grounding cable in the shown order. Soldering the ground cable to the motor shielding is sinking much heat, this will probably require to give your soldering station a boost (e.g. I use to solder this cable with 450°C).
 Attention: We recommend to use shrinking tubing to isolate the motor pins here, since the cables will be very close to each other and short circuits are otherwise very likely.
 
-image::solder_motor_wires.jpg[]
+image::solder_motor_wires.jpg[320,240]
 
 Bend the motor wires carefully to fit below the board and push down the cables, check if everything will fit.
 
-image::bend_motor_wires.jpg[]
-image::bend_motor_wires_2.jpg[]
-image::push_down_cables_carefully.jpg[]
+[cols="a,a,a"]
+|====
+| image::bend_motor_wires.jpg[] | image::bend_motor_wires_2.jpg[] | image::push_down_cables_carefully.jpg[]
+|====
 
 Mount the 3D-printed plastic cover on the boards and install the screws.
 
-image::mount_cover_to_motorbox.jpg[]
+image::mount_cover_to_motorbox.jpg[320,240]
 
 This is how the motor should look like when fully assembled.
 
-image::sensorimotor_fully_assembled_with_servo.jpg[]
+image::sensorimotor_fully_assembled_with_servo.jpg[320,240]
 
 Use the multimeter to check for potential short circuits on every recently soldered connections visible from the top side (i.e. check resistance, most devices will bleep when there is no sufficient resistance.) Between the motor connections there should be a low resistance, since you checking for the motor coil. All other connections must be free of short circuits.
 
-image::shortcircuit_check.jpg[]
+image::shortcircuit_check.jpg[320,240]
 
 Repeat the process for the rest of the motors.
 
-image::sensorimotors_finished.jpg[]
+image::sensorimotors_finished.jpg[320,240]
 
 Get some labels with the motors' IDs and put them on each individual motor.
 
-image::label_motor_ids.jpg[]
+image::label_motor_ids.jpg[320,240]
 
 === Flashing Firmware
 How to flash the motors firmware is described best on the projects website link:http://sensorimotor.de[Sensorimotor.de].
@@ -605,7 +643,11 @@ video::CWDaAJ0dNk8[youtube]
 
 Get all the tools and parts.
 
-image::parts_and_tools_for_leg_assembly.jpg[]
+[cols="a,a"]
+|====
+| image::parts_and_tools_for_leg_assembly.jpg[] | image::legs_ready_for_next_step.jpg[]
+|====
+
 
 It is important that all remaining glue is removed and that the motor holes are clean and even to have the motor best fit into it.
 
@@ -648,7 +690,11 @@ image::legs_ready_for_next_step.jpg[]
 
 Get the parts and tools needed to assemble the lower torso. Follow the same procedure for the torso motors as with the leg motors using washers and spring washers accordingly.
 
-image::assemble_body.jpg[]
+[cols="a,a"]
+|====
+| image::assemble_body.jpg[] | image::torso_and_legs_assembled.jpg[]
+|====
+
 
 Insert the motors given the orientation shown in the pictures.
 
@@ -674,6 +720,10 @@ image::torso_and_legs_assembled.jpg[]
 
 === Assembly of the Feet
 
+[cols="a,a,a"]
+|====
+| image::assemble_the_ankle_cardan_joint.jpg[] | image::foot_assemble_bearings.jpg[] | image::foot_result.jpg[]
+|====
 
 ==== Cardan Ankle Joint
 
