@@ -119,7 +119,7 @@ The wooden parts are approx. 5mm thick. Each Gretchen body part (lower torso, th
 
 [cols="a,a"]
 |====
-| image::lasercut_parts.jpg[] |
+| image::lasercut_parts.jpg[] | image::prepare_workbench_and_tools.jpg[]
 |====
 
 
@@ -135,7 +135,7 @@ Make sure you have all the tools needed for glueing:
 
 [cols="a,a"]
 |====
-| image::prepare_workbench_and_tools.jpg[] |
+| image::prepare_workbench_and_tools.jpg[] | image::coloring_parts_start.jpg[]
 |====
 
 
@@ -144,11 +144,8 @@ Gently remove the remaining loose parts and price stickers, if any are present. 
 
 Approximated time needed: 5 - 10 minutes
 
-[cols="a,a"]
-|====
-| image::remove_loose_parts.jpg[] | image::remove_stickers.jpg[]
-|====
-
+image::remove_loose_parts.jpg[]
+image::remove_stickers.jpg[]
 
 === Glue the parts together.
 Glue the parts together preferably using express wood glue. Apply glue uniformly following the recommendations of the specific glue user manual.
@@ -175,7 +172,12 @@ image::glue_result.jpg[]
 
 Color is of course optional but gives your Gretchen an individual character. Nonetheless it is recommended to apply some clear coat to protect the wooden parts from humidity and fat.
 
-image::coloring_parts_start.jpg[]
+[cols="a,a"]
+|====
+| image::coloring_parts_start.jpg[] | image::prepare_bearing_mounting.jpg[]
+|====
+
+
 
 === Paint the parts
 We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted.
@@ -215,7 +217,12 @@ We begin the assembly with mounting the bearings. You need:
 
 Note: If you consider to use an electric screw driver we recommend using torque control.
 
-image::prepare_bearing_mounting.jpg[]
+[cols="a,a"]
+|====
+| image::prepare_bearing_mounting.jpg[] | image::bearing_mounted_finished.jpg[]
+|====
+
+
 
 Before starting, make sure to remove remaining glue from the screw holes. Use a drill or hex screw driver to remove the dried glue.
 
@@ -258,7 +265,10 @@ Tools:
 * clamp (optional),
 * M5 drill (optional)
 
-image::prepare_mounting_knee.jpg[]
+[cols="a,a"]
+|====
+| image::prepare_mounting_knee.jpg[] | image::knee_mountin_ready_both.jpg[]
+|====
 
 Insert the 3 screws into the outer knee part (with pulley). Insert only as deep as the screw tips are barely visible, just enough to find the corresponding hole in the wooden part.
 
@@ -288,6 +298,12 @@ image::knee_mountin_ready_both.jpg[]
 === Hip
 
 Always remember: *Easy does it. Don't push too hard.* In German: "Nach fest kommt ab." (After firmly comes off.)
+
+
+[cols="a,a"]
+|====
+| image::prepare_tools_workbench_hip_assembly.jpg[] | image::hip_result_using_washers_for_distance.jpg[]
+|====
 
 
 ==== Assemble Hex Nut Pulleys
