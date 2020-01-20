@@ -115,19 +115,113 @@ When using professional 3D-printing service, consider SLS (Selective Laser Sinte
 
 == Motors
 
-Prepare workbench and get all the needed tools. **add introduction about motor**
 
-image::desolder_tools.jpg[320,240]
+=== Step 1. Assemble sensorimotor board
 
-==== Step 1. Assemble sensorimotor board
-
-**add introduction about step 1 **
+Insert components (RS485, 4-pin, white, rectangluar) and solder them.
 
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::sensorimotor_through_hole_parts.jpg[] | image::sensorimotor_insert_polarized_capacitor.jpg[]
+| image::sensorimotor_through_hole_parts.jpg[320,240] | image::sensorimotor_insert_polarized_capacitor.jpg[320,240]
 |====
+
+==== Step 1.1 Insert molex pin on top side of board.
+
+[cols="a,a"]
+|====
+| image::IMG-5699.jpg[320,240] |image::IMG-5700.jpg[320,240]
+|====
+
+
+==== Step 1.2 Insert thermistor on bottom side of board.
+
+[cols="a,a"]
+|====
+| image::IMG-5700.jpg[320,240] | image::IMG-5701.jpg[320,240]
+|====
+
+
+==== Step 1.3 Insert capacitor on bottom side of board.
+
+[cols="a,a"]
+|====
+| image::IMG-5701.jpg[320,240] | image::IMG-5703.jpg[320,240]
+|====
+
+==== Step 1.4 Insert ISP pin on top side of board.
+
+[cols="a,a"]
+|====
+| image::IMG-5707.jpg[320,240] | image::IMG-5708.jpg[320,240]
+|====
+
+
+
+=== Step 2. Remove servo controller from servo
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::unscrew_motor_cover.jpg[320,240] | image::motorboard_removal_complete.jpg[320,240]
+|====
+
+==== Step 2.1 Cut the wires of encoder part
+
+[cols="a,a"]
+|====
+| image::IMG-5705.jpg[320,240] |image::IMG-5706.jpg[320,240]
+|====
+
+
+==== Step 2.2 Strip the wires
+
+[cols="a,a"]
+|====
+| image::IMG-5706.jpg[320,240] |image::IMG-5709.jpg[320,240]
+|====
+
+
+
+=== Step 3. Connect Sensorimotor into servo
+
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG-5833.jpg[320,240] | image::IMG-5847.jpg[320,240]
+|====
+
+
+
+==== Step 3.1 Connect wires to motor
+
+[cols="a,a"]
+|====
+| image::IMG-5832.jpg[320,240] |image::IMG-5833.jpg[320,240]
+|====
+
+==== Step 3.2 Connect the wires of encoder to sensorimotor board
+
+[cols="a,a"]
+|====
+| image::IMG-5838.jpg[320,240] |image::IMG-5839.jpg[320,240]
+|====
+
+==== Step 3.3 Connect the wires of motor to sensorimotor board
+
+[cols="a,a"]
+|====
+| image::IMG-5842.jpg[320,240] |image::IMG-5843.jpg[320,240]
+|====
+
+==== Step 3.4 Attach the sensorimotor board to frame
+
+[cols="a,a"]
+|====
+| image::IMG-5845.jpg[320,240] |image::IMG-5847.jpg[320,240]
+|====
+
 
 
 
@@ -139,7 +233,7 @@ Get all the needed and recommended tools. Use a fine solder tip and thin solder 
 
 [cols="a,a,a"]
 |====
-| image::sensorimotor_tools_needed.jpg[] | image::sensorimotor_recommended_solder_tools.jpg[] | image::sensorimotor_recommended_fine_pitch_solder_tip.jpg[]
+| image::sensorimotor_tools_needed.jpg[320,240] | image::sensorimotor_recommended_solder_tools.jpg[320,240] | image::sensorimotor_recommended_fine_pitch_solder_tip.jpg[320,240]
 |====
 
 
@@ -149,7 +243,7 @@ Insert the Motorcord (RS485, 4-pin, white, rectangluar) sockets and the I2C conn
 
 [cols="a,a,a"]
 |====
-| image::IMG-5700.jpg[] | image::IMG-5703.jpg[]
+| image::IMG-5700.jpg[320,240] | image::IMG-5703.jpg[320,240]
 |====
 
 
@@ -157,7 +251,7 @@ Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to t
 
 [cols="a,a"]
 |====
-| image::sensorimotor_bend_thermistor.jpg[] | image::sensorimotor_solder_thermistor.jpg[]
+| image::sensorimotor_bend_thermistor.jpg[320,240] | image::sensorimotor_solder_thermistor.jpg[320,240]
 |====
 
 
@@ -165,11 +259,11 @@ Insert the electrolytic capacitor from bottom side, check for correct polarity a
 
 [cols="a,a"]
 |====
-| image::sensorimotor_insert_polarized_capacitor.jpg[] | image::sensorimotor_remove_remaining_pin.jpg[]
+| image::sensorimotor_insert_polarized_capacitor.jpg[320,240] | image::sensorimotor_remove_remaining_pin.jpg[320,240]
 |====
 
 
-==== Step 2. Remove servo controller from Servo
+==== Step 2. Remove servo controller from servo
 
 See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards.
 
@@ -177,7 +271,7 @@ See some videos for a quick overview. Read text and see images below for detaile
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::unscrew_motor_cover.jpg[] | image::motorboard_removal_complete.jpg[]
+| image::unscrew_motor_cover.jpg[320,240] | image::motorboard_removal_complete.jpg[320,240]
 |====
 
 
@@ -191,18 +285,18 @@ video::5hQtV_ZHUZk[youtube]
 
 *Instruction*
 
-*1.1 Secure the gearbox with some removable tape*
+*2.1 Secure the gearbox with some removable tape*
 
 image::tape_motorbox.jpg[320,240]
 
 
-*1.2 Remove the cover*
+*2.2 Remove the cover*
 
 Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
 
 image::unscrew_motor_cover.jpg[320,240]
 
-*1.3 desolder the servo motor PCB*
+*2.3 desolder the servo motor PCB*
 
 Stabilize the motor using a clamp or similar. Use a desolder pump to remove solder from the motor pins. Consider using a higher soldering temperature (e.g. 410°C) since the (power-)pads will sink a lot of heat. And depending on the soldering station/iron you are using this may drop the temperature on the tip of the iron a little below melting piont, and thus makes desoldering hard. We recommend to always add flux or add a little fresh solder (which has flux included) to make desoldering easier.
 
@@ -210,7 +304,7 @@ Stabilize the motor using a clamp or similar. Use a desolder pump to remove sold
 
 [cols="a,a"]
 |====
-| image::desolder_motorpins.jpg[] | image::desolder_motorpins_result_commented.jpg[]
+| image::desolder_motorpins.jpg[320,240] | image::desolder_motorpins_result_commented.jpg[320,240]
 |====
 
 Heat up the grounding pin and lift the board with a pointed tool while continuing heating. The grounding pin either remains at the motor case or on board side, no matter remove it or leave it for later use.
@@ -227,6 +321,17 @@ Remove any loose solder remainings carefully. Use vacuum cleaner if needed. Remo
 image::motorboard_removal_complete.jpg[320,240]
 
 ==== Step 3. Connect Sensorimotor into servo
+
+Connect the servo and sensorimotor board. The servo has six lines. Three are motor related lines and the other lines are encoder lines. Connect these wires to the sensorimotor board.
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG-5833.jpg[320,240] | image::IMG-5835.jpg[320,240]
+|====
+
+*Instruction*
+
 
 
 ==== Step 4. Install Sensorimotor into servo
