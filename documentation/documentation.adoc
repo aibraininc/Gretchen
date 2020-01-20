@@ -120,11 +120,6 @@ When using professional 3D-printing service, consider SLS (Selective Laser Sinte
 
 Insert components (RS485, 4-pin, white, rectangluar) and solder them.
 
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::sensorimotor_through_hole_parts.jpg[320,240] | image::sensorimotor_insert_polarized_capacitor.jpg[320,240]
-|====
 
 ==== Step 1.1 Insert molex pin on top side of board.
 
@@ -160,11 +155,6 @@ Insert components (RS485, 4-pin, white, rectangluar) and solder them.
 
 === Step 2. Remove servo controller from servo
 
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::unscrew_motor_cover.jpg[320,240] | image::motorboard_removal_complete.jpg[320,240]
-|====
 
 ==== Step 2.1 Cut the wires of encoder part
 
@@ -183,15 +173,7 @@ Insert components (RS485, 4-pin, white, rectangluar) and solder them.
 
 
 
-=== Step 3. Connect Sensorimotor into servo
-
-
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::IMG-5833.jpg[320,240] | image::IMG-5847.jpg[320,240]
-|====
-
+=== Step 3. Connect sensorimotor board into servo
 
 
 ==== Step 3.1 Connect wires to motor
