@@ -113,6 +113,129 @@ When using professional 3D-printing service, consider SLS (Selective Laser Sinte
 
 
 
+=== Motors
+
+Prepare workbench and get all the needed tools.
+
+image::desolder_tools.jpg[320,240]
+
+==== Step 1. Assemble sensorimotor board
+
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::sensorimotor_through_hole_parts.jpg[] | image::sensorimotor_insert_polarized_capacitor.jpg[]
+|====
+
+
+
+*Instruction*
+
+*1.1 Prepare tools for soldering*
+
+Get all the needed and recommended tools. Use a fine solder tip and thin solder for the best quality. Set solder temperature a little above recommended for compensating the heat sink due to power pads.
+
+[cols="a,a,a"]
+|====
+| image::sensorimotor_tools_needed.jpg[] | image::sensorimotor_recommended_solder_tools.jpg[] | image::sensorimotor_recommended_fine_pitch_solder_tip.jpg[]
+|====
+
+
+*1.2 Insert sockets and solder them*
+
+Insert the Motorcord (RS485, 4-pin, white, rectangluar) sockets and the I2C connector (black) from top side and solder from bottom side. Check for clearly separated pins.
+
+[cols="a,a,a"]
+|====
+| image::sensorimotor_through_hole_parts.jpg[] | image::IMG-5700.jpg[] | image::IMG-5703.jpg[]
+|====
+
+
+Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to the bottom of the board, the thermistor body should be placed left below the H-bridge with the flat side close to the surface.
+
+[cols="a,a"]
+|====
+| image::sensorimotor_bend_thermistor.jpg[] | image::sensorimotor_solder_thermistor.jpg[]
+|====
+
+
+Insert the electrolytic capacitor from bottom side, check for correct polarity and solder. The negative (GND) pin will be sinking a lot of heat because it is directly connected to a large ground plane, be prepared for this taking some more seconds for the solder/pad to reach the melting temperature. Cut/remove the remaining material close to the board
+
+[cols="a,a"]
+|====
+| image::sensorimotor_insert_polarized_capacitor.jpg[] | image::sensorimotor_remove_remaining_pin.jpg[]
+|====
+
+
+==== Step 2. Remove servo controller from Servo
+
+See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards.
+
+
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::unscrew_motor_cover.jpg[] | image::motorboard_removal_complete.jpg[]
+|====
+
+
+video: https://www.youtube.com/watch?v=jpkWSJoK_m4[sensorimotor_assembly_01_removing_old_controller]
+
+video::jpkWSJoK_m4[youtube]
+
+video:  https://www.youtube.com/watch?v=5hQtV_ZHUZk[sensorimotor_assembly_02_desoldering_detail]
+
+video::5hQtV_ZHUZk[youtube]
+
+*Instruction*
+
+*1.1 Secure the gearbox with some removable tape*
+
+image::tape_motorbox.jpg[320,240]
+
+
+*1.2 Remove the cover*
+
+Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
+
+image::unscrew_motor_cover.jpg[320,240]
+
+*1.3 desolder the servo motor PCB*
+
+Stabilize the motor using a clamp or similar. Use a desolder pump to remove solder from the motor pins. Consider using a higher soldering temperature (e.g. 410°C) since the (power-)pads will sink a lot of heat. And depending on the soldering station/iron you are using this may drop the temperature on the tip of the iron a little below melting piont, and thus makes desoldering hard. We recommend to always add flux or add a little fresh solder (which has flux included) to make desoldering easier.
+
+// https://github.com/aibraininc/Gretchen/raw/v0.1/documentation/images/desolder_motorpins.jpg
+
+[cols="a,a"]
+|====
+| image::desolder_motorpins.jpg[] | image::desolder_motorpins_result_commented.jpg[]
+|====
+
+Heat up the grounding pin and lift the board with a pointed tool while continuing heating. The grounding pin either remains at the motor case or on board side, no matter remove it or leave it for later use.
+The grounding pin will sink excessive heat, so be patient and use enough heat and time to thoroughly melt the solder.
+
+image::desolder_grounding_pins.jpg[320,240]
+
+Cut the red, yellow and green cable very close to the boards and remove the board, be carefull the edges of the board may be hot due to heaten up ground layer which is going close to the edges.
+
+image::cut_cables_and_remove_board.jpg[320,240]
+
+Remove any loose solder remainings carefully. Use vacuum cleaner if needed. Remove any loose glue remaining. Recycle or archive the boards, covers and accessoires, since we do not need them anymore. Keep the screws, will be needed later.
+
+image::motorboard_removal_complete.jpg[320,240]
+
+==== Step 3. Connect Sensorimotor into Servo
+
+==== Step 4. Install Sensorimotor into Servo
+
+
+
+
+
+
+
+
 == Glueing
 
 The wooden parts are approx. 5mm thick. Each Gretchen body part (lower torso, thigh or shank) is composed of two 5mm wooden plates glued together to reach the 10mm needed. Hence, in your assembly kit you should have 4x shank, 4x thigh, 2x torso plates.
@@ -378,127 +501,6 @@ image::hip_result_using_washers_for_distance.jpg[]
 Repeat with the second hip accordingly.
 
 === Foot
-
-
-=== Motors
-
-Prepare workbench and get all the needed tools.
-
-image::desolder_tools.jpg[320,240]
-
-==== Step 1. Assemble sensorimotor board
-
-
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::sensorimotor_through_hole_parts.jpg[] | image::sensorimotor_insert_polarized_capacitor.jpg[]
-|====
-
-
-
-*Instruction*
-
-*1.1 Prepare tools for soldering*
-
-Get all the needed and recommended tools. Use a fine solder tip and thin solder for the best quality. Set solder temperature a little above recommended for compensating the heat sink due to power pads.
-
-[cols="a,a,a"]
-|====
-| image::sensorimotor_tools_needed.jpg[] | image::sensorimotor_recommended_solder_tools.jpg[] | image::sensorimotor_recommended_fine_pitch_solder_tip.jpg[]
-|====
-
-
-*1.2 Insert sockets and solder them*
-
-Insert the Motorcord (RS485, 4-pin, white, rectangluar) sockets and the I2C connector (black) from top side and solder from bottom side. Check for clearly separated pins.
-
-[cols="a,a,a"]
-|====
-| image::sensorimotor_through_hole_parts.jpg[] | image::IMG-5700.jpg[] | image::IMG-5703.jpg[]
-|====
-
-
-Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to the bottom of the board, the thermistor body should be placed left below the H-bridge with the flat side close to the surface.
-
-[cols="a,a"]
-|====
-| image::sensorimotor_bend_thermistor.jpg[] | image::sensorimotor_solder_thermistor.jpg[]
-|====
-
-
-Insert the electrolytic capacitor from bottom side, check for correct polarity and solder. The negative (GND) pin will be sinking a lot of heat because it is directly connected to a large ground plane, be prepared for this taking some more seconds for the solder/pad to reach the melting temperature. Cut/remove the remaining material close to the board
-
-[cols="a,a"]
-|====
-| image::sensorimotor_insert_polarized_capacitor.jpg[] | image::sensorimotor_remove_remaining_pin.jpg[]
-|====
-
-
-==== Step 2. Remove servo controller from Servo
-
-See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards.
-
-
-[cols="a,a"]
-|====
-| *Before* | *After*
-| image::unscrew_motor_cover.jpg[] | image::motorboard_removal_complete.jpg[]
-|====
-
-
-video: https://www.youtube.com/watch?v=jpkWSJoK_m4[sensorimotor_assembly_01_removing_old_controller]
-
-video::jpkWSJoK_m4[youtube]
-
-video:  https://www.youtube.com/watch?v=5hQtV_ZHUZk[sensorimotor_assembly_02_desoldering_detail]
-
-video::5hQtV_ZHUZk[youtube]
-
-*Instruction*
-
-*1.1 Secure the gearbox with some removable tape*
-
-image::tape_motorbox.jpg[320,240]
-
-
-*1.2 Remove the cover*
-
-Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
-
-image::unscrew_motor_cover.jpg[320,240]
-
-*1.3 desolder the servo motor PCB*
-
-Stabilize the motor using a clamp or similar. Use a desolder pump to remove solder from the motor pins. Consider using a higher soldering temperature (e.g. 410°C) since the (power-)pads will sink a lot of heat. And depending on the soldering station/iron you are using this may drop the temperature on the tip of the iron a little below melting piont, and thus makes desoldering hard. We recommend to always add flux or add a little fresh solder (which has flux included) to make desoldering easier.
-
-// https://github.com/aibraininc/Gretchen/raw/v0.1/documentation/images/desolder_motorpins.jpg
-
-[cols="a,a"]
-|====
-| image::desolder_motorpins.jpg[] | image::desolder_motorpins_result_commented.jpg[]
-|====
-
-Heat up the grounding pin and lift the board with a pointed tool while continuing heating. The grounding pin either remains at the motor case or on board side, no matter remove it or leave it for later use.
-The grounding pin will sink excessive heat, so be patient and use enough heat and time to thoroughly melt the solder.
-
-image::desolder_grounding_pins.jpg[320,240]
-
-Cut the red, yellow and green cable very close to the boards and remove the board, be carefull the edges of the board may be hot due to heaten up ground layer which is going close to the edges.
-
-image::cut_cables_and_remove_board.jpg[320,240]
-
-Remove any loose solder remainings carefully. Use vacuum cleaner if needed. Remove any loose glue remaining. Recycle or archive the boards, covers and accessoires, since we do not need them anymore. Keep the screws, will be needed later.
-
-image::motorboard_removal_complete.jpg[320,240]
-
-==== Step 3. Connect Sensorimotor into Servo
-
-==== Step 4. Install Sensorimotor into Servo
-
-
-
-
 
 
 
