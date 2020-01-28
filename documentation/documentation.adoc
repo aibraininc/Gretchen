@@ -201,7 +201,7 @@ image::unscrew_motor_cover.jpg[320,240]
 
 
 ==== Step 2.2 Strip the wires
-
+twist/focus the wires' ends with your finger tips and pre-solder the wires to best fit into solder holes.
 [cols="a,a"]
 |====
 | image::IMG-5706.jpg[320,240] |image::IMG-5709.jpg[320,240]
@@ -211,6 +211,13 @@ image::unscrew_motor_cover.jpg[320,240]
 
 === Step 3. Connect sensoriboard into servo
 
+==== Step 3.1 Prepare 3D printed motor cover.
+Try fitting the sensoriboard and motor with the motor cover. If the motor cover doesn't fit, use sand paper to remove any remaining support material or grain.
+
+[cols="a,a"]
+|====
+| image::check_cover_fits_on_motorbox.jpg[320,240] | image::check_sensorimotor_fits_into_cover.jpg[320,240]
+|====
 
 ==== Step 3.1 Connect wires to motor
 
@@ -219,28 +226,48 @@ image::unscrew_motor_cover.jpg[320,240]
 | image::IMG-5832.jpg[320,240] |image::IMG-5833.jpg[320,240]
 |====
 
-==== Step 3.2 Connect the wires of encoder to sensorimotor board
+==== Step 3.2 Connect the wires of encoder to sensoriboard
+Solder potentiometer pins in the shown order! Be careful, the cables' isolation may melt (and then retract) quickly. Cut the cables' ends close above the board.
 
-[cols="a,a"]
+[cols="a,a,a"]
 |====
-| image::IMG-5838.jpg[320,240] |image::IMG-5839.jpg[320,240]
+| image::IMG-5838.jpg[320,240] |image::IMG-5839.jpg[320,240] |image::solder_potentiometer_pins.jpg[320,240]
 |====
 
 ==== Step 3.3 Connect the wires of motor to sensorimotor board
+
+
+Cut, strip and pre-solder the motor wires, approximately 5cm each.
+
+Solder the motor wires and the grounding cable in the shown order. Soldering the ground cable to the motor shielding is sinking much heat, this will probably require to give your soldering station a boost (e.g. I use to solder this cable with 450°C). Attention: We recommend to use shrinking tubing to isolate the motor pins here, since the cables will be very close to each other and short circuits are otherwise very likely.
+
 
 [cols="a,a"]
 |====
 | image::IMG-5842.jpg[320,240] |image::IMG-5843.jpg[320,240]
 |====
 
-==== Step 3.4 Attach the sensorimotor board to frame
+==== Step 3.4 Attach the sensoriboard to motor with the 3D printed motor cover
+
+
+Bend the motor wires carefully to fit below the board and push down the cables, check if everything will fit.
 
 [cols="a,a"]
 |====
-| image::IMG-5845.jpg[320,240] |image::IMG-5847.jpg[320,240]
+| image::IMG-5845.jpg[320,240] |image::push_down_cables_carefully.jpg[320,240] | image::mount_cover_to_motorbox.jpg[320,240] |
+ image::IMG-5847.jpg[320,240]
 |====
 
+==== Step 3.5 Use the multimeter to check for potential short circuits
 
+Use the multimeter to check for potential short circuits on every recently soldered connections visible from the top side (i.e. check resistance, most devices will bleep when there is no sufficient resistance.) Between the motor connections there should be a low resistance, since you checking for the motor coil. All other connections must be free of short circuits.
+
+image::shortcircuit_check.jpg[320,240]
+
+==== Step 3.6 Label the motors with ID
+Get some labels with the motors' IDs and put them on each individual motor.
+
+image::label_motor_ids.jpg[320,240]
 
 
 *Instruction*
@@ -405,7 +432,7 @@ Bend the motor wires carefully to fit below the board and push down the cables, 
 
 [cols="a,a,a"]
 |====
-| image::bend_motor_wires.jpg[] | image::bend_motor_wires_2.jpg[] | image::push_down_cables_carefully.jpg[]
+| image::bend_motor_wires.jpg[] | image::bend_motor_wires_2.jpg[] | image::push_down_cables_carefully.jpg[] | image::mount_cover_to_motorbox.jpg[320,240]
 |====
 
 Mount the 3D-printed plastic cover on the boards and install the screws.
