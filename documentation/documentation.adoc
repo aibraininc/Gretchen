@@ -157,7 +157,7 @@ Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to t
 Insert the electrolytic capacitor from bottom side, check for correct polarity and solder. The negative (GND) pin will be sinking a lot of heat because it is directly connected to a large ground plane, be prepared for this taking some more seconds for the solder/pad to reach the melting temperature. Cut/remove the remaining material close to the board
 
 
-[cols="a,a"]
+[cols="a,a,a,a"]
 |====
 | image::IMG-5702.jpg[320,240] | image::sensorimotor_insert_polarized_capacitor.jpg[320,240] | image::sensorimotor_remove_remaining_pin.jpg[320,240] | image::IMG-5703.jpg[320,240]
 |====
@@ -170,8 +170,7 @@ Insert the electrolytic capacitor from bottom side, check for correct polarity a
 |====
 
 
-
-=== Step 2. Remove default controller board from servo
+=== Step 2. Remove default controller board from servo motor
 See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards.
 
 
@@ -183,20 +182,28 @@ See some videos for a quick overview. Read text and see images below for detaile
 
 ==== Step 2.1 Secure the gearbox with some removable tape
 
-image::tape_motorbox.jpg[320,240]
+[cols="a,a"]
+|====
+| image::tape_motorbox.jpg[320,240]
+|====
 
 ==== Step 2.2 Remove motor cover, cut cables, and remove default board
 
 Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
 
-image::unscrew_motor_cover.jpg[320,240]
+[cols="a,a"]
+|====
+| image::unscrew_motor_cover.jpg[320,240]
+|====
 
 
-==== Step 2.3 Cut the wires of encoder part
+==== Step 2.3 Cut the wires of the encoder
+
+Cut the red, yellow and green cable very close to the boards and remove the board, be carefull the edges of the board may be hot due to heaten up ground layer which is going close to the edges.
 
 [cols="a,a"]
 |====
-| image::IMG-5705.jpg[320,240] |image::IMG-5706.jpg[320,240]
+| image::IMG-5705.jpg[320,240] | image::cut_cables_and_remove_board.jpg[320,240] |image::IMG-5706.jpg[320,240]
 |====
 
 
@@ -204,7 +211,7 @@ image::unscrew_motor_cover.jpg[320,240]
 twist/focus the wires' ends with your finger tips and pre-solder the wires to best fit into solder holes.
 [cols="a,a"]
 |====
-| image::IMG-5706.jpg[320,240] |image::IMG-5709.jpg[320,240]
+| image::IMG-5706.jpg[320,240] |image::IMG-5709.jpg[320,240] | image::strip_wires_of_potentiometer.jpg[] | image::potentiometer_wires_pre-soldered.jpg[]
 |====
 
 
@@ -219,14 +226,18 @@ Try fitting the sensoriboard and motor with the motor cover. If the motor cover 
 | image::check_cover_fits_on_motorbox.jpg[320,240] | image::check_sensorimotor_fits_into_cover.jpg[320,240]
 |====
 
-==== Step 3.1 Connect wires to motor
+==== Step 3.2 Connect wires to motor
+
+Cut, strip and pre-solder the motor wires, approximately 5cm each.
+
+Connect the wire to the motor
 
 [cols="a,a"]
 |====
-| image::IMG-5832.jpg[320,240] |image::IMG-5833.jpg[320,240]
+| image::motor_wires_5cm.jpg[320,240] | image::IMG-5832.jpg[320,240] |image::IMG-5833.jpg[320,240]
 |====
 
-==== Step 3.2 Connect the wires of encoder to sensoriboard
+==== Step 3.3 Connect the wires of encoder to sensoriboard
 Solder potentiometer pins in the shown order! Be careful, the cables' isolation may melt (and then retract) quickly. Cut the cables' ends close above the board.
 
 [cols="a,a,a"]
@@ -242,9 +253,9 @@ Cut, strip and pre-solder the motor wires, approximately 5cm each.
 Solder the motor wires and the grounding cable in the shown order. Soldering the ground cable to the motor shielding is sinking much heat, this will probably require to give your soldering station a boost (e.g. I use to solder this cable with 450°C). Attention: We recommend to use shrinking tubing to isolate the motor pins here, since the cables will be very close to each other and short circuits are otherwise very likely.
 
 
-[cols="a,a"]
+[cols="a,a,a"]
 |====
-| image::IMG-5842.jpg[320,240] |image::IMG-5843.jpg[320,240]
+| image::IMG-5842.jpg[320,240] |image::IMG-5843.jpg[320,240] | image::solder_motor_wires.jpg[320,240]
 |====
 
 ==== Step 3.4 Attach the sensoriboard to motor with the 3D printed motor cover
@@ -252,7 +263,7 @@ Solder the motor wires and the grounding cable in the shown order. Soldering the
 
 Bend the motor wires carefully to fit below the board and push down the cables, check if everything will fit.
 
-[cols="a,a,a, a"]
+[cols="a,a,a,a"]
 |====
 | image::IMG-5845.jpg[320,240] |image::push_down_cables_carefully.jpg[320,240] | image::mount_cover_to_motorbox.jpg[320,240] | image::IMG-5847.jpg[320,240]
 |====
@@ -261,12 +272,17 @@ Bend the motor wires carefully to fit below the board and push down the cables, 
 
 Use the multimeter to check for potential short circuits on every recently soldered connections visible from the top side (i.e. check resistance, most devices will bleep when there is no sufficient resistance.) Between the motor connections there should be a low resistance, since you checking for the motor coil. All other connections must be free of short circuits.
 
-image::shortcircuit_check.jpg[320,240]
-
+[cols="a"]
+|====
+| image::shortcircuit_check.jpg[320,240]
+|====
 ==== Step 3.6 Label the motors with ID
 Get some labels with the motors' IDs and put them on each individual motor.
 
-image::label_motor_ids.jpg[320,240]
+[cols="a"]
+|====
+| image::label_motor_ids.jpg[320,240]
+|====
 
 
 *Instruction*
