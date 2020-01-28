@@ -595,7 +595,7 @@ Tools:
 
 [cols="a,a"]
 |====
-| image::IMG-6172.jpg[320,240] | image::IMG-6174.jpg[320,240]
+| image::IMG-6172.jpg[320,240]
 |====
 
 ==== Step 2. Attach 3d print part and wooden part
