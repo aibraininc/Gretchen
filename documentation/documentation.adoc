@@ -519,31 +519,28 @@ Color is of course optional but gives your Gretchen an individual character. Non
 
 [cols="a,a"]
 |====
-| image::coloring_parts_start.jpg[] | image::prepare_bearing_mounting.jpg[]
+| image::coloring_parts_start.jpg[320,240] | image::prepare_bearing_mounting.jpg[320,240]
 |====
 
 
 
-=== Paint the parts
+=== Step 1. Paint the parts
 We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted.
 
-image::coloring_parts_doing.jpg[]
+[cols="a,a"]
+|====
+| image::coloring_parts_doing.jpg[320,240] | image::coloring_parts_orange.jpg[320,240]
+|====
 
-For instance we painted the outer surfaces orange and the inner surfaces antrazit.
-
-image::coloring_parts_orange.jpg[]
-image::coloring_parts_antrazit.jpg[]
-
-In the end it could look like this:
-
-image::coloring_parts_ready.jpg[]
-
-=== Applying clear coat
+=== Step 2. Applying clear coat
 
 After coloring or coating the wooden parts for the first time, little bristles come up and the surface feels very rough and bristly.
 Before finishing with the last coating layer, carefully use sandpaper to make the surface smooth without removing the color.
 
-image::coloring_parts_clearcoat.jpg[]
+[cols="a"]
+|====
+| image::coloring_parts_clearcoat.jpg[320,240]
+|====
 
 == Assembly
 
@@ -571,7 +568,7 @@ Note: If you consider to use an electric screw driver we recommend using torque 
 Before starting, make sure to remove remaining glue from the screw holes. Use a drill or hex screw driver to remove the dried glue.
 
 
-=== Step 1. Mount bearings on both sides
+==== Step 1. Mount bearings on both sides
 
 
 
@@ -599,7 +596,7 @@ Tools:
 * M5 drill (optional)
 
 
-=== Step 1. Prepare the knee parts
+==== Step 1. Prepare the knee parts
 
 
 [cols="a,a"]
@@ -607,20 +604,13 @@ Tools:
 | image::IMG-6172.jpg[320,240] | image::IMG-6174.jpg[320,240]
 |====
 
-=== Step 2. Attach 3d print part and wooden part
+==== Step 2. Attach 3d print part and wooden part
 
 
-[cols="a,a"]
+[cols="a,a,a"]
 |====
-| image::IMG-6173.jpg[320,240] | image::IMG-6174.jpg[320,240]
+| image::IMG-6173.jpg[320,240] | image::IMG-6174.jpg[320,240] | image::IMG-6181.jpg[320,240]
 |====
-
-
-[cols="a,a"]
-|====
-| image::IMG-6174.jpg[320,240] | image::IMG-6181.jpg[320,240]
-|====
-
 
 
 === Hip
@@ -630,7 +620,7 @@ Always remember: *Easy does it. Don't push too hard.* In German: "Nach fest komm
 
 [cols="a,a"]
 |====
-| image::prepare_tools_workbench_hip_assembly.jpg[] | image::hip_result_using_washers_for_distance.jpg[]
+| image::prepare_tools_workbench_hip_assembly.jpg[320,240] | image::hip_result_using_washers_for_distance.jpg[320,240]
 |====
 
 
