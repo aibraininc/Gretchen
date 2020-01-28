@@ -628,7 +628,11 @@ Tools:
 
 [cols="a,a"]
 |====
+<<<<<<< HEAD
 | image::prepare_mounting_knee.jpg[] | image::knee_mountin_ready_both.jpg[]
+=======
+| image::IMG-6172.jpg[320,240]
+>>>>>>> 774577adee4fbec8dec3e9bf0035a9b8359cfa68
 |====
 
 Insert the 3 screws into the outer knee part (with pulley). Insert only as deep as the screw tips are barely visible, just enough to find the corresponding hole in the wooden part.
