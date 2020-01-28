@@ -480,19 +480,9 @@ The wooden parts are approx. 5mm thick. Each Gretchen body part (lower torso, th
 
 [cols="a,a"]
 |====
-| image::lasercut_parts.jpg[320,240] | image::prepare_workbench_and_tools.jpg[320,240]
+| *Before* | *After*
+| image::prepare_workbench_and_tools.jpg[320,240] | image::coloring_parts_start.jpg[320,240]
 |====
-
-
-
-=== Prepare workbench.
-Make sure you have all the tools needed for glueing:
-
-* a lot of clamps (5 - 10 small clamps)
-* Sandpaper or fine file
-* small screwdriver
-* cutter knife
-* express wood glue
 
 
 
@@ -535,6 +525,7 @@ Color is of course optional but gives your Gretchen an individual character. Non
 
 [cols="a,a"]
 |====
+| *Before* | *After*
 | image::coloring_parts_start.jpg[320,240] | image::prepare_bearing_mounting.jpg[320,240]
 |====
 
@@ -584,6 +575,7 @@ Before starting, make sure to remove remaining glue from the screw holes. Use a 
 
 [cols="a,a"]
 |====
+| *Before* | *After*
 | image::IMG-6163.jpg[320,240] | image::IMG-6170.jpg[320,240]
 |====
 
@@ -609,7 +601,7 @@ Tools:
 ==== Step 1. Prepare the knee parts
 
 
-[cols="a,a"]
+[cols="a"]
 |====
 | image::IMG-6172.jpg[320,240]
 |====
@@ -630,6 +622,7 @@ Always remember: *Easy does it. Don't push too hard.* In German: "Nach fest komm
 
 [cols="a,a"]
 |====
+| *Before* | *After*
 | image::prepare_tools_workbench_hip_assembly.jpg[320,240] | image::hip_result_using_washers_for_distance.jpg[320,240]
 |====
 
