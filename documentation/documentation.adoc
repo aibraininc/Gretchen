@@ -182,13 +182,17 @@ See some videos for a quick overview. Read text and see images below for detaile
 |====
 
 ==== Step 2.1 Secure the gearbox with some removable tape
+
 image::tape_motorbox.jpg[320,240]
 
 ==== Step 2.2 Remove motor cover, cut cables, and remove default board
 
 Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
+
 image::unscrew_motor_cover.jpg[320,240]
-==== Step 2.1 Cut the wires of encoder part
+
+
+==== Step 2.3 Cut the wires of encoder part
 
 [cols="a,a"]
 |====
@@ -456,9 +460,11 @@ image::label_motor_ids.jpg[320,240]
 
 The wooden parts are approx. 5mm thick. Each Gretchen body part (lower torso, thigh or shank) is composed of two 5mm wooden plates glued together to reach the 10mm needed. Hence, in your assembly kit you should have 4x shank, 4x thigh, 2x torso plates.
 
+
+
 [cols="a,a"]
 |====
-| image::lasercut_parts.jpg[] | image::prepare_workbench_and_tools.jpg[]
+| image::lasercut_parts.jpg[320,240] | image::prepare_workbench_and_tools.jpg[320,240]
 |====
 
 
@@ -472,45 +478,40 @@ Make sure you have all the tools needed for glueing:
 * cutter knife
 * express wood glue
 
-[cols="a,a"]
-|====
-| image::prepare_workbench_and_tools.jpg[] | image::coloring_parts_start.jpg[]
-|====
 
 
-=== Prepare the wood parts for glueing.
+=== Step 1. Prepare the wood parts for glueing.
 Gently remove the remaining loose parts and price stickers, if any are present. Depending on the laser cut depth, it may appear that remaining parts (clippings) must be removed carefully with a cutter knife or sandpaper.
 
 Approximated time needed: 5 - 10 minutes
 
 [cols="a,a"]
 |====
-| image::remove_loose_parts.jpg[] | image::remove_stickers.jpg[]
+| image::remove_loose_parts.jpg[320,240] | image::remove_stickers.jpg[320,240]
 |====
 
-=== Glue the parts together.
+=== Step 2. Glue the parts together.
 Glue the parts together preferably using express wood glue. Apply glue uniformly following the recommendations of the specific glue user manual.
 
 [cols="a,a"]
 |====
-| image::apply_glue_uniformly.jpg[] | image::ready_for_glueing.jpg[]
+| image::apply_glue_uniformly.jpg[320,240] | image::ready_for_glueing.jpg[320,240]
 |====
 
+=== Step 3. Hold the parts
 
 Use many small clamps to apply appropriate pressure distributed on the full surface. Use some of M4 screws to hold the parts in place and assure that the parts are nicely aligned before the glue gets dry.
 
-image::clamping_parts.jpg[320,240]
-image::align_and_fix_with_screw.jpg[320,240]
+[cols="a,a"]
+|====
+| image::clamping_parts.jpg[320,240] | image::align_and_fix_with_screw.jpg[320,240]
+|====
 
 Let the assembly dry for some time with the clamps attached. Follow specific instructions depending on the glue you are using. Remove remaining glue _after_ drying. Since otherwise smeared adhesive on the wood parts can not be painted well.
 
-image::excessive_glue.jpg[320,240]
-
 Glueing takes approximately *10 - 15* minutes per part. But drying will probably take *1 - 2* hours depending on the glue you are using. Repeat the process for all wooden parts, i.e. one lower torso, two thighs, two shanks.
 
-The result should look like this:
 
-image::glue_result.jpg[320,240]
 
 == Coloring
 
