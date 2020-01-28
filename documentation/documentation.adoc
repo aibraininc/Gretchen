@@ -535,31 +535,28 @@ Color is of course optional but gives your Gretchen an individual character. Non
 
 [cols="a,a"]
 |====
-| image::coloring_parts_start.jpg[] | image::prepare_bearing_mounting.jpg[]
+| image::coloring_parts_start.jpg[320,240] | image::prepare_bearing_mounting.jpg[320,240]
 |====
 
 
 
-=== Paint the parts
+=== Step 1. Paint the parts
 We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted.
 
-image::coloring_parts_doing.jpg[]
+[cols="a,a"]
+|====
+| image::coloring_parts_doing.jpg[320,240] | image::coloring_parts_orange.jpg[320,240]
+|====
 
-For instance we painted the outer surfaces orange and the inner surfaces antrazit.
-
-image::coloring_parts_orange.jpg[]
-image::coloring_parts_antrazit.jpg[]
-
-In the end it could look like this:
-
-image::coloring_parts_ready.jpg[]
-
-=== Applying clear coat
+=== Step 2. Applying clear coat
 
 After coloring or coating the wooden parts for the first time, little bristles come up and the surface feels very rough and bristly.
 Before finishing with the last coating layer, carefully use sandpaper to make the surface smooth without removing the color.
 
-image::coloring_parts_clearcoat.jpg[]
+[cols="a"]
+|====
+| image::coloring_parts_clearcoat.jpg[320,240]
+|====
 
 == Assembly
 
@@ -580,34 +577,22 @@ Note: If you consider to use an electric screw driver we recommend using torque 
 
 [cols="a,a"]
 |====
-| image::prepare_bearing_mounting.jpg[] | image::bearing_mounted_finished.jpg[]
+| image::prepare_bearing_mounting.jpg[320,240] | image::bearing_mounted_finished.jpg[320,240]
 |====
-
 
 
 Before starting, make sure to remove remaining glue from the screw holes. Use a drill or hex screw driver to remove the dried glue.
 
-image::remove_glue_in_holes.jpg[]
 
-The bearings are self-aligning, i.e. they can change their axes' direction. Bearings must be properly aligned, to guarantee a solid belt tension later. You should initially move the bearings once to slightly loosen the connection and more easily correct the alignment.
+==== Step 1. Mount bearings on both sides
 
-image::centering_bearings.jpg[]
 
-Mount the bearings on both sides (dual bearing) using the M4 x 25 mm screws as shown in the picture. You should only tighten the screws loosely in the first place and than correct the axis to be perpendicular to the surface.
 
-image::assemble_loosly.jpg[]
+[cols="a,a"]
+|====
+| image::IMG-6163.jpg[320,240] | image::IMG-6170.jpg[320,240]
+|====
 
-Check the proper rotation of the axes.
-
-image::check_bearing.jpg[]
-
-After proper centering the bearing, tighten screws. The final result should look like this.
-
-image::bearing_mounted_0.jpg[]
-
-image::bearing_mounted_1.jpg[]
-
-image::bearing_mounted_finished.jpg[]
 
 
 === Knee
@@ -626,34 +611,22 @@ Tools:
 * clamp (optional),
 * M5 drill (optional)
 
+
+==== Step 1. Prepare the knee parts
+
+
 [cols="a,a"]
 |====
-| image::prepare_mounting_knee.jpg[] | image::knee_mountin_ready_both.jpg[]
+| image::IMG-6172.jpg[320,240] | image::IMG-6174.jpg[320,240]
 |====
 
-Insert the 3 screws into the outer knee part (with pulley). Insert only as deep as the screw tips are barely visible, just enough to find the corresponding hole in the wooden part.
+==== Step 2. Attach 3d print part and wooden part
 
-image::knee_mounting_0.jpg[]
 
-Screw the two parts together. Probably pressing the part down to the workbench might help to get the screws inserted. Again, turn only as far as the tips of the screws are barely visible.
-
-image::knee_mounting_1.jpg[]
-
-Carefully sinking the holes of the inner side of the second plastic part with a drill of size 5mm will help the screws _finding_ the holes. Sink less than 1mm.
-
-image::knee_mounting_sink_hole.jpg[]
-
-Mount the second part, optionally using a clamp, to have the parts perfectly aligned. Since there are no dedicated nuts here, don't turn to fast and powerful, the screw will create their own thread into the plastic, which must be preserved.
-
-image::knee_mounting_2.jpg[]
-
-After mounting the knee, the result should look like this. Again, don't overturn here. Use torque limiter on your electric screwdriver.
-
-image::knee_mountin_ready_0.jpg[]
-
-Repeat the process with the second knee.
-
-image::knee_mountin_ready_both.jpg[]
+[cols="a,a,a"]
+|====
+| image::IMG-6173.jpg[320,240] | image::IMG-6174.jpg[320,240] | image::IMG-6181.jpg[320,240]
+|====
 
 
 === Hip
@@ -663,8 +636,32 @@ Always remember: *Easy does it. Don't push too hard.* In German: "Nach fest komm
 
 [cols="a,a"]
 |====
-| image::prepare_tools_workbench_hip_assembly.jpg[] | image::hip_result_using_washers_for_distance.jpg[]
+| image::prepare_tools_workbench_hip_assembly.jpg[320,240] | image::hip_result_using_washers_for_distance.jpg[320,240]
 |====
+
+
+=== Step 1. Prepare the hip parts
+
+[cols="a"]
+|====
+| image::IMG-6182.jpg[320,240]
+|====
+
+=== Step 2. Insert bolt into pulleys
+
+[cols="a,a"]
+|====
+| image::IMG-6185.jpg[320,240] | image::IMG-6187.jpg[320,240]
+|====
+
+=== Step 3. Complete hip parts
+
+
+[cols="a,a"]
+|====
+| image::IMG-6189.jpg[320,240] | image::IMG-6190.jpg[320,240]
+|====
+
 
 
 ==== Assemble Hex Nut Pulleys
