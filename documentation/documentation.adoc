@@ -559,12 +559,6 @@ We begin the assembly with mounting the bearings. You need:
 
 Note: If you consider to use an electric screw driver we recommend using torque control.
 
-[cols="a,a"]
-|====
-| image::prepare_bearing_mounting.jpg[320,240] | image::bearing_mounted_finished.jpg[320,240]
-|====
-
-
 Before starting, make sure to remove remaining glue from the screw holes. Use a drill or hex screw driver to remove the dried glue.
 
 
