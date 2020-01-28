@@ -116,11 +116,16 @@ When using professional 3D-printing service, consider SLS (Selective Laser Sinte
 == Motors
 
 
-=== Step 1. Assemble sensorimotor board
+=== Step 1. Solder sensorimotor board
 
 Insert the Motorcord (RS485, 4-pin, white, rectangluar) sockets and the I2C connector (black) from top side and solder from bottom side. Check for clearly separated pins.
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::sensorimotor_through_hole_parts.jpg[320,240] | image::sensorimotor_ready.jpg[320,240]
+|====
 
-==== Step 1.1 Prepare tools for soldering*
+==== Step 1.1 Prepare tools for soldering
 
 Get all the needed and recommended tools. Use a fine solder tip and thin solder for the best quality. Set solder temperature a little above recommended for compensating the heat sink due to power pads.
 
@@ -130,40 +135,31 @@ Get all the needed and recommended tools. Use a fine solder tip and thin solder 
 |====
 
 
-==== Step 1.1 Insert molex pin on the front of the board.
+==== Step 1.2 Insert molex pin on the front of the board.
 
 [cols="a,a"]
 |====
-| image::IMG-5699.jpg[320,240] |image::IMG-5700.jpg[320,240]
+| image::IMG-5699.jpg[320,240] |image::IMG-5704.jpg[320,240]
 |====
 
 
-==== Step 1.2 Insert thermistor on the back of the board.
-
-[cols="a,a"]
-|====
-| image::IMG-5700.jpg[320,240] | image::IMG-5701.jpg[320,240]
-|====
-
+==== Step 1.3 Insert thermistor on the back of the board.
 Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to the bottom of the board, the thermistor body should be placed left below the H-bridge with the flat side close to the surface.
 
 [cols="a,a"]
 |====
-| image::sensorimotor_bend_thermistor.jpg[320,240] | image::sensorimotor_solder_thermistor.jpg[320,240]
+| image::IMG-5700.jpg[320,240] | image::sensorimotor_bend_thermistor.jpg[320,240]  | image::IMG-5701.jpg[320,240] | image::sensorimotor_solder_thermistor.jpg[320,240]
 |====
+
 
 ==== Step 1.3 Insert capacitor on back of board.
 
-[cols="a,a"]
-|====
-| image::IMG-5701.jpg[320,240] | image::IMG-5703.jpg[320,240]
-|====
-
 Insert the electrolytic capacitor from bottom side, check for correct polarity and solder. The negative (GND) pin will be sinking a lot of heat because it is directly connected to a large ground plane, be prepared for this taking some more seconds for the solder/pad to reach the melting temperature. Cut/remove the remaining material close to the board
 
+
 [cols="a,a"]
 |====
-| image::sensorimotor_insert_polarized_capacitor.jpg[320,240] | image::sensorimotor_remove_remaining_pin.jpg[320,240]
+| image::IMG-5702.jpg[320,240] | image::sensorimotor_insert_polarized_capacitor.jpg[320,240] | image::sensorimotor_remove_remaining_pin.jpg[320,240] | image::IMG-5703.jpg[320,240]
 |====
 
 ==== Step 1.4 Insert ISP pin on front side of board.
@@ -256,10 +252,9 @@ Solder the motor wires and the grounding cable in the shown order. Soldering the
 
 Bend the motor wires carefully to fit below the board and push down the cables, check if everything will fit.
 
-[cols="a,a"]
+[cols="a,a,a, a"]
 |====
-| image::IMG-5845.jpg[320,240] |image::push_down_cables_carefully.jpg[320,240] | image::mount_cover_to_motorbox.jpg[320,240] |
- image::IMG-5847.jpg[320,240]
+| image::IMG-5845.jpg[320,240] |image::push_down_cables_carefully.jpg[320,240] | image::mount_cover_to_motorbox.jpg[320,240] | image::IMG-5847.jpg[320,240]
 |====
 
 ==== Step 3.5 Use the multimeter to check for potential short circuits
