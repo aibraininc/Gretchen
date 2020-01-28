@@ -130,7 +130,7 @@ Get all the needed and recommended tools. Use a fine solder tip and thin solder 
 |====
 
 
-==== Step 1.1 Insert molex pin on top side of board.
+==== Step 1.1 Insert molex pin on the front of the board.
 
 [cols="a,a"]
 |====
@@ -138,7 +138,7 @@ Get all the needed and recommended tools. Use a fine solder tip and thin solder 
 |====
 
 
-==== Step 1.2 Insert thermistor on bottom side of board.
+==== Step 1.2 Insert thermistor on the back of the board.
 
 [cols="a,a"]
 |====
@@ -152,7 +152,7 @@ Bend the two pins of the thermistor (TO92 housing) by 90 degrees and solder to t
 | image::sensorimotor_bend_thermistor.jpg[320,240] | image::sensorimotor_solder_thermistor.jpg[320,240]
 |====
 
-==== Step 1.3 Insert capacitor on bottom side of board.
+==== Step 1.3 Insert capacitor on back of board.
 
 [cols="a,a"]
 |====
@@ -166,7 +166,7 @@ Insert the electrolytic capacitor from bottom side, check for correct polarity a
 | image::sensorimotor_insert_polarized_capacitor.jpg[320,240] | image::sensorimotor_remove_remaining_pin.jpg[320,240]
 |====
 
-==== Step 1.4 Insert ISP pin on top side of board.
+==== Step 1.4 Insert ISP pin on front side of board.
 
 [cols="a,a"]
 |====
@@ -175,7 +175,7 @@ Insert the electrolytic capacitor from bottom side, check for correct polarity a
 
 
 
-=== Step 2. Remove servo controller from servo
+=== Step 2. Remove default controller board from servo
 See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards.
 
 
@@ -188,7 +188,7 @@ See some videos for a quick overview. Read text and see images below for detaile
 ==== Step 2.1 Secure the gearbox with some removable tape
 image::tape_motorbox.jpg[320,240]
 
-==== Step 2.2 Remove motor cover
+==== Step 2.2 Remove motor cover, cut cables, and remove default board
 
 Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
 image::unscrew_motor_cover.jpg[320,240]
@@ -209,7 +209,7 @@ image::unscrew_motor_cover.jpg[320,240]
 
 
 
-=== Step 3. Connect sensorimotor board into servo
+=== Step 3. Connect sensoriboard into servo
 
 
 ==== Step 3.1 Connect wires to motor
@@ -337,7 +337,7 @@ Connect the servo and sensorimotor board. The servo has six lines. Three are mot
 [cols="a,a"]
 |====
 | *Before* | *After*
-| image::IMG-5833.jpg[320,240] | image::IMG-5835.jpg[320,240]
+| image::IMG-5838.jpg[320,240] | image::IMG-5835.jpg[320,240]
 |====
 
 *Instruction*
@@ -358,6 +358,8 @@ video::W5wTd_JIoqk[youtube]
 
 
 ==== Installing Sensorimotor into Servo
+
+For installing sensoriboards go to https://github.com/aibraininc/sensoriboard-package/blob/master/documentation.adoc
 
 
 video:  https://www.youtube.com/watch?v=vMh9dKeaUrc[sensorimotor_assembly_05_installing board]
