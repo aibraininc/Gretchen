@@ -176,8 +176,22 @@ Insert the electrolytic capacitor from bottom side, check for correct polarity a
 
 
 === Step 2. Remove servo controller from servo
+See some videos for a quick overview. Read text and see images below for detailed step by step explanations on how to desolder the servo motors printed circuit boards.
 
 
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::unscrew_motor_cover.jpg[320,240] | image::motorboard_removal_complete.jpg[320,240]
+|====
+
+==== Step 2.1 Secure the gearbox with some removable tape
+image::tape_motorbox.jpg[320,240]
+
+==== Step 2.2 Remove motor cover
+
+Unscrew the six housing screws and remove the cover and keep the screws separately (we will need them later).
+image::unscrew_motor_cover.jpg[320,240]
 ==== Step 2.1 Cut the wires of encoder part
 
 [cols="a,a"]
