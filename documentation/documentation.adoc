@@ -218,11 +218,8 @@ Remove any loose solder remainings carefully. Use vacuum cleaner if needed. Remo
 |====
 
 
-<<<<<<< HEAD
 ==== Step 2.5 Strip the wires
-=======
-==== Step 2.4 Strip the wires
->>>>>>> c57dc02850f85c0cebc56f66fed2a352835c5f50
+
 twist/focus the wires' ends with your finger tips and pre-solder the wires to best fit into solder holes.
 [cols="a,a"]
 |====
