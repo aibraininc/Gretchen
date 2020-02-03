@@ -365,23 +365,34 @@ Glueing takes approximately *10 - 15* minutes per part. But drying will probably
 === Step 2. Paint the parts
 We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted.
 
-image::coloring_parts_doing.jpg[]
+[cols="a"]
+|====
+| image::coloring_parts_doing.jpg[320,240]
+|====
 
 For instance we painted the outer surfaces orange and the inner surfaces antrazit.
 
-image::coloring_parts_orange.jpg[]
-image::coloring_parts_antrazit.jpg[]
+[cols="a,a"]
+|====
+| image::coloring_parts_orange.jpg[320,240] | image::coloring_parts_antrazit.jpg[320,240]
+|====
 
 In the end it could look like this:
 
-image::coloring_parts_ready.jpg[]
+[cols="a,a"]
+|====
+| image::coloring_parts_ready.jpg[320,240]
+|====
 
 === Step 3. Applying clear coat
 
 After coloring or coating the wooden parts for the first time, little bristles come up and the surface feels very rough and bristly.
 Before finishing with the last coating layer, carefully use sandpaper to make the surface smooth without removing the color.
 
-image::coloring_parts_clearcoat.jpg[]
+[cols="a"]
+|====
+| image::coloring_parts_clearcoat.jpg[320,240]
+|====
 
 == Assembly
 
