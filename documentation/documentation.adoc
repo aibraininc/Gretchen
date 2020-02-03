@@ -352,7 +352,7 @@ Glueing takes approximately *10 - 15* minutes per part. But drying will probably
 
 == Coloring
 
-=== Step 1. Color is of course optional but gives your Gretchen an individual character. Nonetheless it is recommended to apply some clear coat to protect the wooden parts from humidity and fat.
+Color is of course optional but gives your Gretchen an individual character. Nonetheless it is recommended to apply some clear coat to protect the wooden parts from humidity and fat.
 
 [cols="a,a"]
 |====
@@ -362,7 +362,7 @@ Glueing takes approximately *10 - 15* minutes per part. But drying will probably
 
 
 
-=== Step 2. Paint the parts
+=== Step 1. Paint the parts
 We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted.
 
 [cols="a"]
@@ -384,7 +384,7 @@ In the end it could look like this:
 | image::coloring_parts_ready.jpg[320,240]
 |====
 
-=== Step 3. Applying clear coat
+=== Step 2. Applying clear coat
 
 After coloring or coating the wooden parts for the first time, little bristles come up and the surface feels very rough and bristly.
 Before finishing with the last coating layer, carefully use sandpaper to make the surface smooth without removing the color.
