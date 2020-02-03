@@ -184,7 +184,7 @@ See some videos for a quick overview. Read text and see images below for detaile
 
 [cols="a"]
 |====
-| image::tape_motorbox.jpg[320,240] 
+| image::tape_motorbox.jpg[320,240]
 |====
 
 ==== Step 2.2 Remove motor cover, cut cables, and remove default board
@@ -480,19 +480,9 @@ The wooden parts are approx. 5mm thick. Each Gretchen body part (lower torso, th
 
 [cols="a,a"]
 |====
-| image::lasercut_parts.jpg[320,240] | image::prepare_workbench_and_tools.jpg[320,240]
+| *Before* | *After*
+| image::prepare_workbench_and_tools.jpg[320,240] | image::coloring_parts_start.jpg[320,240]
 |====
-
-
-
-=== Prepare workbench.
-Make sure you have all the tools needed for glueing:
-
-* a lot of clamps (5 - 10 small clamps)
-* Sandpaper or fine file
-* small screwdriver
-* cutter knife
-* express wood glue
 
 
 
@@ -535,7 +525,8 @@ Color is of course optional but gives your Gretchen an individual character. Non
 
 [cols="a,a"]
 |====
-| image::coloring_parts_start.jpg[] | image::prepare_bearing_mounting.jpg[]
+| *Before* | *After*
+| image::coloring_parts_start.jpg[320,240] | image::prepare_bearing_mounting.jpg[320,240]
 |====
 
 
@@ -595,11 +586,11 @@ image::centering_bearings.jpg[]
 
 Mount the bearings on both sides (dual bearing) using the M4 x 25 mm screws as shown in the picture. You should only tighten the screws loosely in the first place and than correct the axis to be perpendicular to the surface.
 
-image::assemble_loosly.jpg[]
-
-Check the proper rotation of the axes.
-
-image::check_bearing.jpg[]
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::IMG-6163.jpg[320,240] | image::IMG-6170.jpg[320,240]
+|====
 
 After proper centering the bearing, tighten screws. The final result should look like this.
 
@@ -626,13 +617,13 @@ Tools:
 * clamp (optional),
 * M5 drill (optional)
 
-[cols="a,a"]
+
+==== Step 1. Prepare the knee parts
+
+
+[cols="a"]
 |====
-<<<<<<< HEAD
-| image::prepare_mounting_knee.jpg[] | image::knee_mountin_ready_both.jpg[]
-=======
 | image::IMG-6172.jpg[320,240]
->>>>>>> 774577adee4fbec8dec3e9bf0035a9b8359cfa68
 |====
 
 Insert the 3 screws into the outer knee part (with pulley). Insert only as deep as the screw tips are barely visible, just enough to find the corresponding hole in the wooden part.
@@ -649,7 +640,11 @@ image::knee_mounting_sink_hole.jpg[]
 
 Mount the second part, optionally using a clamp, to have the parts perfectly aligned. Since there are no dedicated nuts here, don't turn to fast and powerful, the screw will create their own thread into the plastic, which must be preserved.
 
-image::knee_mounting_2.jpg[]
+[cols="a,a"]
+|====
+| *Before* | *After*
+| image::prepare_tools_workbench_hip_assembly.jpg[320,240] | image::hip_result_using_washers_for_distance.jpg[320,240]
+|====
 
 After mounting the knee, the result should look like this. Again, don't overturn here. Use torque limiter on your electric screwdriver.
 
