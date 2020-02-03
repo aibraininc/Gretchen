@@ -345,25 +345,25 @@ Color is of course optional but gives your Gretchen an individual character. Non
 
 
 === Paint the parts
-We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted.
+We recommend coloring the surfaces of the wooden parts and leave the nicely burned laser cut edges unpainted. For instance we painted the outer surfaces orange and the inner surfaces antrazit. In the end it could look like this:
 
-image::coloring_parts_doing.jpg[]
 
-For instance we painted the outer surfaces orange and the inner surfaces antrazit.
+[cols="a,a"]
+|====
+| image::coloring_parts_doing.jpg[320,240] | image::coloring_parts_orange.jpg[320,240]
+| image::coloring_parts_antrazit.jpg[320,240] | image::coloring_parts_ready.jpg[320,240]
+|====
 
-image::coloring_parts_orange.jpg[]
-image::coloring_parts_antrazit.jpg[]
-
-In the end it could look like this:
-
-image::coloring_parts_ready.jpg[]
 
 === Applying clear coat
 
 After coloring or coating the wooden parts for the first time, little bristles come up and the surface feels very rough and bristly.
 Before finishing with the last coating layer, carefully use sandpaper to make the surface smooth without removing the color.
 
-image::coloring_parts_clearcoat.jpg[]
+[cols="a"]
+|====
+| image::coloring_parts_clearcoat.jpg[320,240]
+|====
 
 == Assembly
 
